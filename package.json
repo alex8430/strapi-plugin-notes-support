@@ -1,29 +1,29 @@
 {
 	"$schema": "https://json.schemastore.org/package",
-	"name": "strapi-plugin-notes",
-	"version": "1.0.1",
-	"description": "A plugin for Strapi Headless CMS that provides the ability to add notes to entity records.",
+	"name": "strapi-plugin-notes-support",
+	"version": "1.0.2",
+	"description": "A plugin for Strapi Headless CMS that provides the ability to add notes to entity records. support for node 18 pr higher credit: ComfortablyCoding",
 	"scripts": {
 		"lint": "eslint . --fix",
 		"format": "prettier --write **/*.{ts,js,json,yml}"
 	},
 	"author": {
 		"name": "@ComfortablyCoding",
-		"url": "https://github.com/ComfortablyCoding"
+		"url": "https://github.com/alex8430"
 	},
 	"maintainers": [
 		{
 			"name": "@ComfortablyCoding",
-			"url": "https://github.com/ComfortablyCoding"
+			"url": "https://github.com/alex8430"
 		}
 	],
-	"homepage": "https://github.com/ComfortablyCoding/strapi-plugin-notes#readme",
+	"homepage": "https://github.com/alex8430/strapi-plugin-notes#readme",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/ComfortablyCoding/strapi-plugin-notes.git"
+		"url": "https://github.com/alex8430/strapi-plugin-notes.git"
 	},
 	"bugs": {
-		"url": "https://github.com/ComfortablyCoding/strapi-plugin-notes/issues"
+		"url": "https://github.com/alex8430/strapi-plugin-notes/issues"
 	},
 	"dependencies": {},
 	"devDependencies": {
@@ -46,7 +46,7 @@
 		"kind": "plugin"
 	},
 	"engines": {
-		"node": ">=12.x. <=16.x.x",
+		"node": ">=12.x.",
 		"npm": ">=6.0.0"
 	},
 	"keywords": [
